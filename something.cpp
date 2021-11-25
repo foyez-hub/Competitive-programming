@@ -87,10 +87,9 @@ void run()
     vector<ll> v;
     int n;
     cin>>n;
-    for (auto i:v)
+    for (int i = 0; i < n; i++)
     {
-        cout<<i<<endl;
-
+        cout<<v[i]<<endl;
     }
     
 
